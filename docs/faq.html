@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explains the features of Unsal Unlu Podcast Player (Ünsal Ünlü e-yayımları) mobile application">
+    <meta
+        keywords="Ünsal Ünlü, mobil, cep, uygulama, gündem, gazete, manşet, yorum, siyaset, doğru, tarafsız, gazetecilik, medya okuma sözlüğü, kitap, tanıtım, umut, destek, omuzomuza, kurtulus">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Alp Tunç">
+
+    <title>Ünsal Ünlü Patronsuz</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link href="./output.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="sticky flex width-full top-0 h-20 bg-fuchsia-200 z-50">
+        <div class="flex w-4/6 p-2 content-center">
+            <a class="pr-4" href="index.html">
+                <img class="h-8" src="assets/svg/home_24dp_000000.svg" alt="Ana Sayfa" />
+            </a>
+            <p class="font-sans text-xl md:text-3xl text-start">Ünsal Ünlü Patronsuz</p>
+        </div>
+        <div class="flex w-2/6 items-center justify-end p-2 ">
+            <a href="https://play.google.com/store/apps/details?id=net.alptunc.uupp">
+                <img class="h-20" src="assets/svg/GetItOnGooglePlay_Badge_Web_color_Turkish.svg"
+                    alt="Uygulamanın Google Play Store'daki sayfası" />
+            </a>
+        </div>
+    </div>
+
+    <main id="point-zero" class="flex-1 overflow-y-scroll">
+
+
+
+
+        <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+        <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+        <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+
+
+        <div id="page1" class="flex-col min-h-screen bg-sky-50 gap-5 p-2">
+
+
+            <div class="text-4xl">Sıkça Sorulan Sorular</div>
+            <br />
+            <br />
+            <p class="text-2xl">
+                Uygulamanın bir geçmiş yayınlara ulaşmak için bir Arama fonksiyonu yok. Eklenebilir mi?
+            </p>
+            <p>
+                Arama özelliği eğer Patreon erişim arayüzü (Patreon API) izin veriyorsa ileride, öncelik sırasına göre
+                eklenebilir. Ancak yaptığım bir ön araştırmada Patreon'un detaylı bir arama özelliğini desteklediğine
+                dair bir bilgiye rastlamadım. Bu yüzden ilk izlenimim bu özelliği uygulamaya katsak bile ya çok kısır
+                olacağı ya da gereksiz şekilde uygulamayı çok şişireceği şeklinde. İleride daha detaylı araştıracağım.
+
+            </p>
+            <br />
+            <br />
+            <p class="text-2xl">
+                Bluetooth kulaklığımdan/harici hoparlörümden uygulamayı dinlerken,
+                kulaklık/hoparlör üzerindeki oynat/duraksat düğmelerini kullanamıyorum. Bizim uygulamamız bu
+                düğmeleri desteklemiyor mu?
+            </p>
+            <p>
+                Test edebildiğim kadarı ile bu sorunun etrafında iki ana problem var:
+            </p>
+            <ul class="pl-5 list-disc list-outside">
+                <li>
+                    ya gerçekten bir uyumsuzluk var
+                </li>
+                <li>
+                    ya da arka planda çalışmakta olan bir başka uygulama kontrolü bizim uygulamamızdan önce çalıyor(!)
+                </li>
+            </ul>
+            <br />
+
+            Gerçekten bir uyum problemi olup olmadığını anlamak için şunları yapabilirsiniz:
+            <ul class="pl-5 list-disc list-outside">
+                <li>
+                    Telefonunuzu tekrar başlatın (kapatıp/açın)
+                </li>
+                <li>
+                    Başka bir uygulama başlatmadan bizim uygulamamızı çalıştırıp kontrol edin
+                </li>
+                <li>
+                    Eğer problem hala devam ediyorsa lütfen telefonunuzun ve kulaklığınızın/harici hoparlörün marka,
+                    model ve varsa teknik özelliklerini bana e-posta yoluyla iletin. Araştırmaya çalışacağım.
+                </li>
+            </ul>
+            <br />
+            <p class="text-amber-700">
+                Hak verirsiniz ki tüm donanımları edinme/test etme şansım maalesef yok. Çözüm bulmaya çalışacağımdan
+                emin
+                olabilirsiniz ancak bu zaman
+                alabilir, ya da çözüm üretemeyebilirim. Anlayışınızı rica ediyorum.
+            </p>
+            <br />
+
+            Arka planda çalışan bir uygulamanın kontrolü çalmasını(!) engellemek için:
+            <ul class="pl-5 list-disc list-outside">
+                <li>
+                    Ses ya da video oynatan tüm uygulamaları (bizim uygulamamız da dahil) kapatın
+                </li>
+                <li>
+                    Tüm uygulamaların Uyarı Bölümündeki uyarılarını da kapatın
+                </li>
+                <li>
+                    Bizim uygulamamızı başlatıp deneyin.
+                </li>
+            </ul>
+            <br />
+
+            <br />
+            Şu ana kadar test edebildiğim cihazların (Kulaklık/Hoparlör) dökümü aşağıda bulunabilir:
+            <table class="border-separate border border-gray-400 w-full text-left">
+                <thead>
+                    <tr class="bg-slate-400">
+                        <th>Marka</th>
+                        <th>Cihaz (K/H)</th>
+                        <th>Uyum</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="bg-green-100">
+                        <td class="w-1/3">Baseus</td>
+                        <td class="w-1/3">K</td>
+                        <td class="w-1/3"><img src="assets/svg/check_circle_24dp_75FB4C.svg"></td>
+                    </tr>
+                    <tr class="bg-red-100">
+                        <td class="w-1/3">Bose Quiet Comfort</td>
+                        <td class="w-1/3">K</td>
+                        <td class="w-1/3"><img src="assets/svg/cancel_24dp_EA3323.svg"></td>
+                    </tr>
+                    <tr class="bg-green-100">
+                        <td>JBL</td>
+                        <td>H</td>
+                        <td><img src="assets/svg/check_circle_24dp_75FB4C.svg"></td>
+                    </tr>
+                    <tr class="bg-red-100">
+                        <td>JBL</td>
+                        <td>K</td>
+                        <td><img src="assets/svg/cancel_24dp_EA3323.svg"></td>
+                    </tr>
+                    <tr class="bg-red-100">
+                        <td>Shaza</td>
+                        <td>H</td>
+                        <td><img src="assets/svg/cancel_24dp_EA3323.svg"></td>
+                    </tr>
+                    <tr class="bg-green-100">
+                        <td>Spigen</td>
+                        <td>K</td>
+                        <td><img src="assets/svg/check_circle_24dp_75FB4C.svg"></td>
+                    </tr>
+                    <tr class="bg-red-100">
+                        <td>Ugreen</td>
+                        <td>K</td>
+                        <td><img src="assets/svg/cancel_24dp_EA3323.svg"></td>
+                    </tr>
+                    <tr class="bg-red-100">
+                        <td>Xiaomi Sound Outdoor</td>
+                        <td>H</td>
+                        <td><img src="assets/svg/cancel_24dp_EA3323.svg"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br />
+            <br />
+
+            <p class="text-2xl">
+                Oppo kullanıcısıyım. Uygulamayı kuramıyorum. 'Bu uygulama yalnızca diğer cihazlarınızda kullanılabilir'
+                gibi bir mesaj alıyorum. Bu ne demek?
+            </p>
+            <p>
+                Oppo telefonlarda bir uyumsuzluk maalesef var. Uygulama Oppo telefonlarda açılmıyor ve Google'a hata
+                raporu veriyor. Hata raporunun önüne geçmek için, Oppo telefonları uyum listesinden bilinçli olarak
+                çıkardım. Yakın gelecekte uygulamamızı bir Oppo telefonu ile test etme şansı öngörmüyorum. Ancak bir
+                fırsat çıkarsa problemin kökenini araştırıp çözmeye çalışırım.
+            </p>
+
+            <br />
+            <br />
+
+            <p class="text-2xl">
+                Yayınlanan bölüm gelmiyor. YouTube'a göre geriden geliyor.
+            </p>
+            <p>
+                Bir yayının uygulamada açılabilmesi için yayının önceden Ünsal Bey tarafından Patreon'a yüklenmesi
+                gerekiyor.
+                Yayın ancak bundan sonra uygulamamız tarafından görülebiliyor, daha öncesinde değil. Yayın Patreon'a bir
+                nedenle yüklenmediyse program yayını
+                gösteremez ve dolayısı ile oynatamaz. Yayının Patreon'a yüklenip yüklenmediğini <a
+                    href="https://patreon.com/unsalunlu" class="underline"> kendisinin Patreon sayfasından </a> teyit
+                edebilirsiniz. Eğer ilgilendiğiniz
+                yayın Patreon'da var ama bizim uygulamamızda görünmüyorsa bir hata vardır. Lütfen bu hatayı bana
+                bildirin.</a>
+            </p>
+            <br />
+            <br />
+
+
+            <p class="text-2xl">Bu podcast'de yayınlanan ses dosyasını yayının olduğu anda canlı olarak
+                dinleyebilir miyim?</li>
+            </p>
+
+            <p>
+                Dinleyemezsiniz. Şöyle ki:
+                Ünsal Bey kendisinin youtube kanalında canlı yayın başlatıyor. Bu yayın yapılırken bir taraftan da
+                yayın kaydediliyor. Yayın bittiğinde, Ünsal Bey, yapılan video kaydından ses dosyası oluşturup
+                Patreon'a yüklüyor. Yayın Patreon'a yüklendikten sonra ancak uygulamamız tarafından
+                görülebiliyor, daha öncesinde değil. 
+
+                Sistem bu şekilde çalışıyor.
+            </p>
+
+            <br />
+            <br />
+
+            <p class="text-2xl">
+                Duyma engelli insanlar için podcast'in en altına metin eklenebilir mi?
+            </p>
+            <p>
+                Çok çok ileride, kendime eğlence/araştırma/yeni bir şeyler öğrenme fırsatı olarak böyle bir sistemi
+                kurmayı planlarım arasına dahil etmiştim. Ancak bu iş hiç mi hiç kolay değil. Kalan ömrümde başarabilir
+                miyim?
+                Süre, olanak, teknolojik alt yapı, bilgi ve birikim olarak gerçekçi mi? Emin değilim açıkçası. Bu esnada
+                çözüm olarak Ünsal Bey'in yayınlarını Youtube'dan transcript özeliğini açarak takip
+                edebilirsiniz.
+            </p>
+
+        </div> <!-- page1-->
+
+
+
+    </main>
+
+</body>
+
+</html
